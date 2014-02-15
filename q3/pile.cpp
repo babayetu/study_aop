@@ -1,7 +1,5 @@
 #include "pile.h"
 
-using namespace std;
-
 void swap (int &n, int &m)
 {
 	int temp;
@@ -86,6 +84,7 @@ void BuildMinPile(int a[],int n)
 	}
 }
 
+/*
 int main()
 {
     int testArray1[] = {6,8,10,11,19,15,20,21,17,7};
@@ -100,3 +99,4 @@ int main()
 	MinHeapDeleteIdxZero(testArray2,11);
 	printIntArray(testArray2, 10);	//size==10
 }
+*/
